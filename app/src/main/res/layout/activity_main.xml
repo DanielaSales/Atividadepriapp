@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF5722"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="98dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/Capturar" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Sing in via facebook or twitter"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:layout_margin="15dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+    <ImageButton
+        android:id="@+id/btnFace"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_weight="0"
+        android:background="@drawable/face" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="or"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:layout_margin="15dp"/>
+
+    <ImageButton
+        android:id="@+id/btnTwitter"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_weight="0"
+        android:background="@drawable/tw"/>
+    </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="or enter in your account info"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            />
+
+    <LinearLayout
+        android:layout_width="340dp"
+        android:layout_height="125dp"
+        android:layout_margin="30dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="330dp"
+            android:layout_height="60dp"
+            android:drawableLeft="@drawable/ic_person"
+            android:background="@drawable/icone"
+            android:hint="jmkcc" />
+
+        <EditText
+            android:layout_width="330dp"
+            android:layout_height="60dp"
+            android:drawableLeft="@drawable/ic_lock_dp"
+            android:background="@drawable/senha"
+            android:hint=".........."
+
+            />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="forgot your password?          need an account?"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="15dp"
+        android:text="Sign in"
+        android:textAllCaps="false"
+        android:textSize="40dp"
+        android:background="@drawable/botao"
+        />
+
+
+</LinearLayout>
+
